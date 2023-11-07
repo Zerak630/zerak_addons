@@ -1,0 +1,13 @@
+{
+	"group": "zerak_addons",
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:nether_wart"
+		}
+	],
+	"result": {
+		"item": "zerak_addons:nether_spore",
+		"count": 2
+	}
+}

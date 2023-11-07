@@ -1,0 +1,21 @@
+{
+	"group": "zerak_addons",
+	"type": "create:crushing",
+	"ingredients": [
+		{
+			"item": "minecraft:nether_wart"
+		}
+	],
+	"results": [
+		{
+			"item": "zerak_addons:nether_spore",
+			"count": 2
+		},
+		{
+			"item": "zerak_addons:nether_spore",
+			"count": 2,
+			"chance": 0.5
+		}
+	],
+	"processingTime": 100
+}

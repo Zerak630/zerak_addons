@@ -1,0 +1,9 @@
+{
+	"type": "flowing_block",
+	"flowing": "#minecraft:flowing_lava",
+	"blocks_nearby": ["#biomesoplenty:blood"],
+	"result": {
+		"type": "block",
+		"block": "minecraft:netherrack"
+	}
+}
