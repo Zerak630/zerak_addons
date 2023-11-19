@@ -35,8 +35,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(ExampleMod.MODID)
-public class ExampleMod {
+@Mod(ZerakAddons.MODID)
+public class ZerakAddons {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "zerak_addons";
     // Directly reference a slf4j logger
@@ -77,7 +77,7 @@ public class ExampleMod {
                         output.acceptAll(FrenchFood.getAll());
                     }).build());
 
-    public ExampleMod() {
+    public ZerakAddons() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
