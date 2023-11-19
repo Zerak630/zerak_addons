@@ -1,0 +1,18 @@
+{
+	"group": "zerak_addons",
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:bread"
+		},
+		{
+			"item": "minecraft:porkchop"
+		},
+		{
+			"item": "zerak_addons:butter"
+		}
+	],
+	"result": {
+		"item": "zerak_addons:jambon_beurre"
+	}
+}

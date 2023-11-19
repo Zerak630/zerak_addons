@@ -2,12 +2,13 @@ package com.example.examplemod.core;
 
 import org.slf4j.Logger;
 
+import com.example.examplemod.FrenchFood;
 import com.example.examplemod.init.ModFluids;
 import com.mojang.logging.LogUtils;
-import com.simibubi.create.AllFluids;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -62,14 +63,18 @@ public class ExampleMod {
     public static final RegistryObject<Item> NETHER_SPORE = ITEMS.register("nether_spore",
             () -> new Item(new Item.Properties()));
 
+    FrenchFood frenchFood = new FrenchFood(ITEMS);
+
     // Creates a creative tab with the id "examplemod:example_tab" for the example
     // item, that is placed after the combat tab
-    public static final RegistryObject<CreativeModeTab> MAIN_TAB = CREATIVE_MODE_TABS.register("zerak_addons",
+    public static final RegistryObject<CreativeModeTab> MAIN_TAB = CREATIVE_MODE_TABS.register("main_tab",
             () -> CreativeModeTab.builder()
+                    .title(Component.literal("Zerak Addons"))
                     .icon(() -> NETHER_SPORE.get().getDefaultInstance())
                     .withTabsAfter(CreativeModeTabs.COMBAT)
                     .displayItems((parameters, output) -> {
                         output.accept(NETHER_SPORE.get());
+                        output.acceptAll(FrenchFood.getAll());
                     }).build());
 
     public ExampleMod() {

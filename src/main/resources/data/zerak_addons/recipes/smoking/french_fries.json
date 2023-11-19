@@ -1,0 +1,8 @@
+{
+	"group": "zerak_addons",
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "minecraft:potato"
+	},
+	"result": "zerak_addons:french_fries"
+}

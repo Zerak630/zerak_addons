@@ -1,0 +1,9 @@
+{
+	"group": "zerak_addons",
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "zerak_addons:pastry_dough"
+	},
+	"result": "zerak_addons:croissant",
+	"experience": 0.0
+}

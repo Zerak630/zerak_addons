@@ -1,0 +1,19 @@
+{
+	"group": "zerak_addons",
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "zerak_addons:butter"
+		},
+		{
+			"item": "create:bar_of_chocolate"
+		},
+		{
+			"item": "zerak_addons:pastry_dough"
+		}
+	],
+	"result": {
+		"item": "zerak_addons:pain_au_chocolat",
+		"count": 1
+	}
+}

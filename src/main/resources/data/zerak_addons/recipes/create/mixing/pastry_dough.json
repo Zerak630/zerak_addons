@@ -1,0 +1,19 @@
+{
+	"group": "zerak_addons",
+	"type": "create:mixing",
+	"ingredients": [
+		{
+			"item": "create:dough"
+		},
+		{
+			"item": "zerak_addons:butter"
+		}
+	],
+	"results": [
+		{
+			"item": "zerak_addons:pastry_dough",
+			"count": 1
+		}
+	],
+	"processingTime": 100
+}

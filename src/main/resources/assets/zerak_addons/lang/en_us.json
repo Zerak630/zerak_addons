@@ -1,3 +1,15 @@
 {
-	"item.zerak_addons.nether_spore": "Nether Spore"
+	"item.zerak_addons.nether_spore": "Nether Spore",
+
+	"item.zerak_addons.butter": "Butter",
+	"item.zerak_addons.salt": "Salt",
+	"item.zerak_addons.pastry_dough": "Pastry Dough",
+
+	"item.zerak_addons.kouign_amann": "Kouign Amann",
+	"item.zerak_addons.croissant": "Croissant",
+	"item.zerak_addons.pain_au_chocolat": "Pain au chocolat",
+	"item.zerak_addons.jambon_beurre": "Jambon beurre",
+	"item.zerak_addons.french_fries": "French fries",
+	"item.zerak_addons.steak_frites": "Steak Frites",
+	"item.zerak_addons.pot_au_feu": "Pot au feu"
 }

@@ -1,0 +1,26 @@
+{
+	"group": "zerak_addons",
+	"type": "create:mixing",
+	"ingredients": [
+		{
+			"item": "minecraft:carrot"
+		},
+		{
+			"item": "minecraft:potato"
+		},
+		{
+			"item": "minecraft:beef"
+		},
+		{
+			"fluid": "minecraft:water",
+			"amount": 500
+		}
+	],
+	"results": [
+		{
+			"item": "zerak_addons:pot_au_feu"
+		}
+	],
+	"processingTime": 300,
+	"heatRequirement": "heated"
+}

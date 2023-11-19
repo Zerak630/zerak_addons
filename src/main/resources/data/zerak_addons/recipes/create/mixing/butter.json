@@ -1,0 +1,17 @@
+{
+	"group": "zerak_addons",
+	"type": "create:mixing",
+	"ingredients": [
+		{
+			"fluidTag": "forge:milk",
+			"amount": 250
+		}
+	],
+	"results": [
+		{
+			"item": "zerak_addons:butter",
+			"count": 1
+		}
+	],
+	"processingTime": 100
+}

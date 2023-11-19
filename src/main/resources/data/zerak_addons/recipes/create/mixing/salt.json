@@ -1,0 +1,18 @@
+{
+	"group": "zerak_addons",
+	"type": "create:mixing",
+	"ingredients": [
+		{
+			"fluid": "minecraft:water",
+			"amount": 250
+		}
+	],
+	"results": [
+		{
+			"item": "zerak_addons:salt",
+			"count": 1
+		}
+	],
+	"processingTime": 100,
+	"heatRequirement": "heated"
+}

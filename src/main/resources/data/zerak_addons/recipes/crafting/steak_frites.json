@@ -1,0 +1,16 @@
+{
+	"group": "zerak_addons",
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "zerak_addons:french_fries"
+		},
+		{
+			"item": "minecraft:cooked_beef"
+		}
+	],
+	"result": {
+		"item": "zerak_addons:steak_frites",
+		"count": 1
+	}
+}
